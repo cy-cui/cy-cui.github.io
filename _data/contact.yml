@@ -1,0 +1,13 @@
+# The contact info.
+
+- type: github
+  url: https://github.com/your-github-username
+  icon: fab fa-github
+
+- type: email
+  url: mailto:example@domain.com
+  icon: fas fa-envelope
+
+- type: twitter
+  url: https://twitter.com/your-twitter-username
+  icon: fab fa-twitter

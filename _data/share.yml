@@ -1,0 +1,202 @@
+#  Share settings
+#  icon: the icon of the button
+#  url: the sharing link
+#  button: the button text
+
+# AddThis
+#-
+#  icon: fas fa-share-alt
+#  url: ""
+#  button: ""
+
+# AddToAny
+#-
+#  icon: fas fa-external-link-alt
+#  url: ""
+#  button: ""
+
+# Blogger
+#-
+#  icon: fab fa-blogger
+#  url: ""
+#  button: ""
+
+# Buffer
+#-
+#  icon: fab fa-buffer
+#  url: ""
+#  button: ""
+
+# Digg
+#-
+#  icon: fab fa-digg
+#  url: ""
+#  button: ""
+
+# Email
+#-
+#  icon: fas fa-envelope
+#  url: ""
+#  button: ""
+
+# Facebook
+#-
+#  icon: fab fa-facebook
+#  url: ""
+#  button: ""
+
+# Flipboard
+#-
+#  icon: fab fa-flipboard
+#  url: ""
+#  button: ""
+
+# Hacker News
+#-
+#  icon: fab fa-hacker-news
+#  url: ""
+#  button: ""
+
+# Instapaper
+#-
+#  icon: fas fa-instapaper
+#  url: ""
+#  button: ""
+
+# Line
+#-
+#  icon: fab fa-line
+#  url: ""
+#  button: ""
+
+# LinkedIn
+#-
+#  icon: fab fa-linkedin
+#  url: ""
+#  button: ""
+
+# LiveJournal
+#-
+#  icon: fab fa-livejournal
+#  url: ""
+#  button: ""
+
+# Mail.ru
+#-
+#  icon: fab fa-mail-ru
+#  url: ""
+#  button: ""
+
+# Mix
+#-
+#  icon: fab fa-mix
+#  url: ""
+#  button: ""
+
+# Myspace
+#-
+#  icon: fab fa-myspace
+#  url: ""
+#  button: ""
+
+# Odnoklassniki
+#-
+#  icon: fab fa-odnoklassniki
+#  url: ""
+#  button: ""
+
+# Pinterest
+#-
+#  icon: fab fa-pinterest
+#  url: ""
+#  button: ""
+
+# Pocket
+#-
+#  icon: fab fa-get-pocket
+#  url: ""
+#  button: ""
+
+# Reddit
+#-
+#  icon: fab fa-reddit
+#  url: ""
+#  button: ""
+
+# Renren
+#-
+#  icon: fab fa-renren
+#  url: ""
+#  button: ""
+
+# Skype
+#-
+#  icon: fab fa-skype
+#  url: ""
+#  button: ""
+
+# Slideshare
+#-
+#  icon: fab fa-slideshare
+#  url: ""
+#  button: ""
+
+# SMS
+#-
+#  icon: fas fa-sms
+#  url: ""
+#  button: ""
+
+# StumbleUpon
+#-
+#  icon: fab fa-stumbleupon
+#  url: ""
+#  button: ""
+
+# Telegram
+#-
+#  icon: fab fa-telegram
+#  url: ""
+#  button: ""
+
+# Tencent QQ
+#-
+#  icon: fab fa-qq
+#  url: ""
+#  button: ""
+
+# Tumblr
+#-
+#  icon: fab fa-tumblr
+#  url: ""
+#  button: ""
+
+# Twitter
+#-
+#  icon: fab fa-twitter
+#  url: ""
+#  button: ""
+
+# Vk
+#-
+#  icon: fab fa-vk
+#  url: ""
+#  button: ""
+
+# WeChat
+#-
+#  icon: fab fa-weixin
+#  url: ""
+#  button: ""
+
+# WordPress
+#-
+#  icon: fab fa-wordpress
+#  url: ""
+#  button: ""
+
+# Xing
+#-
+#  icon: fab fa-xing
+#  url: ""
+#  button: ""
