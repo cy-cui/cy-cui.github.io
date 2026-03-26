@@ -1,0 +1,64 @@
+# Site configuration
+title: 彩云的博客
+description: 记录学习与生活
+url: "https://cy-cui.github.io"
+
+# Theme settings
+minimal_mistakes_skin: "default"
+
+# Build settings
+remote_theme: mmistakes/minimal-mistakes
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Author
+author:
+  name: 彩云
+  bio: 记录学习与生活
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/cy-cui
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Timezone
+timezone: Asia/Shanghai
+
+# SEO
+social:
+  name: 彩云
+  type: Person
+  links:
+    - https://github.com/cy-cui
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
