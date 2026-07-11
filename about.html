@@ -1,0 +1,13 @@
+---
+layout: page
+title: "关于"
+description: "关于我"
+header-img: "img/post-bg-universe.jpg"
+header-mask: 0.3
+hide-in-nav: false
+---
+
+<div class="post-container">
+{% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+{{ about_zh | markdownify }}
+</div>

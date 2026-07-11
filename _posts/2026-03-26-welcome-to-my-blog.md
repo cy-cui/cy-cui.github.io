@@ -1,17 +1,22 @@
 ---
-title: 欢迎来到我的博客
+layout: post
+title: "欢迎来到我的博客"
+subtitle: "一篇示例文章，展示博客功能"
+author: "彩云"
 date: 2026-03-26 10:00:00 +0800
-categories: [随笔, 教程]
-tags: [blog, chirpy, jekyll]
+header-img: img/post-sample-image.jpg
+tags:
+  - 随笔
+  - 教程
 ---
 
 ## 简介
 
-欢迎访问我的个人博客！这是一篇示例文章，用来展示博客的各种功能。
+欢迎访问我的个人博客。这里会记录学习、思考与专业输出。
 
 ## 代码高亮
 
- Chirpy 主题支持多种编程语言的代码高亮。以下是一些示例：
+主题支持多种编程语言的代码高亮：
 
 ### Python
 
@@ -21,7 +26,6 @@ def hello_world():
     print("Hello, World!")
     return True
 
-# 调用函数
 result = hello_world()
 print(f"函数返回结果: {result}")
 ```
@@ -29,60 +33,24 @@ print(f"函数返回结果: {result}")
 ### JavaScript
 
 ```javascript
-const greeting = (name) => {
-  console.log(`Hello, ${name}!`);
-  return true;
-};
+function greet(name) {
+  return `Hello, ${name}!`;
+}
 
-greeting('World');
+console.log(greet("World"));
 ```
-
-### Bash
-
-```bash
-#!/bin/bash
-echo "Hello, World!"
-ls -la
-```
-
-## 列表功能
-
-### 无序列表
-
-- 第一项
-- 第二项
-  - 子项 A
-  - 子项 B
-- 第三项
-
-### 有序列表
-
-1. 第一步
-2. 第二步
-3. 第三步
-
-## 表格
-
-| 功能 | 状态 | 说明 |
-|------|------|------|
-| 代码高亮 | ✅ | 支持多种语言 |
-| 文章目录 | ✅ | 自动生成 |
-| 搜索 | ✅ | 全文搜索 |
-| 分类标签 | ✅ | 支持 |
-| 分页 | ✅ | 自动分页 |
-| 响应式 | ✅ | 移动端适配 |
 
 ## 引用
 
-> 这是一个引用块。
-> 可以用来引用他人的言论或者重点提示。
+> 写作是梳理思考的最好方式之一。
 
-## 链接和图片
+## 列表
 
-你可以使用 Markdown 语法添加 [链接](https://github.com) 和图片。
+- 支持 Markdown 写作
+- 支持文章封面图
+- 支持标签与归档
+- 支持目录与阅读进度
 
-## 总结
+## 下一步
 
-这就是博客的基本功能。开始你的博客之旅吧！
-
-Happy writing! 📝
+用 Cursor 或 Typora 在 `_posts/` 目录新建文章即可，详见 [写稿指南](WRITING.md)。

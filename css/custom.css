@@ -1,0 +1,17 @@
+/* Reading progress bar */
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background: linear-gradient(90deg, #0085a1, #00b4d8);
+  z-index: 9999;
+  transition: width 0.1s ease-out;
+}
+
+/* Chinese-friendly post meta */
+.post-heading .meta,
+.post-meta {
+  font-variant-numeric: tabular-nums;
+}

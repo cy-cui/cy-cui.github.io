@@ -2,6 +2,11 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.5"
+gem "jekyll", "~> 4.4"
+gem "jekyll-paginate"
+gem "jekyll-feed"
+gem "webrick", "~> 1.9"
 
-gem "html-proofer", "~> 5.0", group: :test
+group :test do
+  gem "html-proofer", "~> 5.0"
+end
